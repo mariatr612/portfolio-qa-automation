@@ -1,0 +1,55 @@
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+env/
+.virtualenv/
+
+# Configuración del entorno
+*.env
+*.venv
+.envrc
+.venvrc
+
+# Archivos de logs y depuración
+logs/
+*.log
+debug.log
+
+# Archivos de configuración de IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencias
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Selenium WebDriver descargados
+chromedriver.exe
+chromedriver
+geckodriver
+msedgedriver
+
+# Caché de pytest y behave
+.cache/
+.pytest_cache/
+.behave/
+
+# Archivos de cobertura de código
+coverage.xml
+htmlcov/
+*.cover
+*.coverage
+nosetests.xml
+
+# Archivos de Jupyter Notebook (si usas para debugging)
+.ipynb_checkpoints/
+
+# Archivos de salida y reportes de prueba
+reports/
+screenshots/
